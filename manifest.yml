@@ -1,0 +1,8 @@
+---
+applications:
+  - name: flask-1
+    memory: 1.5G # Set the desired memory limit
+    disk_quota: 2G # Set the desired disk quota
+    instances: 1
+    env:
+      NODE_ENV: production
